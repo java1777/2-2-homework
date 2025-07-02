@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Javohir",
+    "age": "27",
+    "group": "Group A"
+  },
+  {
+    "id": 2,
+    "name": "Komol",
+    "age": "27",
+    "group": "Group B"
+  },
+  {
+    "id": 3,
+    "name": "Jamshid",
+    "age": "30",
+    "group": "Group C"
+  },
+  {
+    "id": 4,
+    "name": "Rushana",
+    "age": "21",
+    "group": "Group A"
+  },
+  {
+    "id": 5,
+    "name": "Suxrob",
+    "age": "15",
+    "group": "Group B"
+  },
+  {
+    "id": 6,
+    "name": "Xursinoy",
+    "age": "22",
+    "group": "Group C"
+  },
+  {
+    "id": 7,
+    "name": "Muxammad",
+    "age": "25",
+    "group": "Group C"
+  },
+  {
+    "id": 8,
+    "name": "Yasin",
+    "age": "17",
+    "group": "Group A"
+  },
+  {
+    "id": 9,
+    "name": "Yasina",
+    "age": "17",
+    "group": "Group A"
+  },
+  {
+    "id": 10,
+    "name": "Mubina",
+    "age": "22",
+    "group": "Group C"
+  },
+  {
+    "id": 11,
+    "name": "Ali",
+    "age": "22",
+    "group": "Group B"
+  },
+  {
+    "id": 12,
+    "name": "Dilshod",
+    "age": "21",
+    "group": "Group A"
+  },
+  {
+    "id": 13,
+    "name": "Sanjar",
+    "age": "23",
+    "group": "Group C"
+  },
+  {
+    "id": 14,
+    "name": "Nilufar",
+    "age": "20",
+    "group": "Group B"
+  },
+  {
+    "id": 15,
+    "name": "Misha",
+    "age": "19",
+    "group": "Group A"
+  },
+  {
+    "id": 16,
+    "name": "Rayxon",
+    "age": "22",
+    "group": "Group C"
+  },
+  {
+    "id": 17,
+    "name": "Sherzod",
+    "age": "20",
+    "group": "Group B"
+  },
+  {
+    "id": 18,
+    "name": "Sarvinoz",
+    "age": "21",
+    "group": "Group A"
+  },
+  {
+    "id": 19,
+    "name": "Murod",
+    "age": "23",
+    "group": "Group C"
+  },
+  {
+    "id": 20,
+    "name": "Nodira",
+    "age": "18",
+    "group": "Group B"
+  }
+]
