@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS orders(
 );
 
 insert into orders(order_data, total_price, customer_id) VALUES
-(('2025-07-01 10:00:00',500000,1),
+('2025-07-01 10:00:00',500000,1),
 ('2025-07-01 08:15:12', 250000, 1),
 ('2025-07-01 09:45:25', 300000, 3),
 ('2025-07-01 11:20:37', 450000, 4),
@@ -33,7 +33,7 @@ insert into orders(order_data, total_price, customer_id) VALUES
 ('2025-07-01 16:25:33', 750000, 3),
 ('2025-07-01 17:55:41', 820000, 4),
 ('2025-07-01 19:15:54', 900000, 5),
-('2025-07-01 20:40:09', 950000, 1);)
+('2025-07-01 20:40:09', 950000, 1);
 
 CREATE TABLE IF NOT EXISTS menu(
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -94,9 +94,9 @@ GROUP BY customer_id;
 SELECT customers.full_name,
 menu.name AS meal,
 menu.price,
-order_items, quantity,
+order_items.quantity,
 (menu.price * order_items.quantity) AS total_cost
 FROM customers
-JOIN order ON customer_id = orders.customer_id
+JOIN orders ON customer_id = orders.customer_id
 JOIN order_items ON orders.id = order_items.order_id
 JOIN menu ON menu.id = order_items.menu_id;
