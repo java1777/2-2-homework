@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS user(
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(30) UNIQUE,
     age INT,
-    CHEK (age<100),
+    CHEK (age <100 ),
     city_id INT,
     FOREIGN KEY(city_id) REFERENCES city(id)
 );
