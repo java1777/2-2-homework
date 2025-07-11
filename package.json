@@ -1,0 +1,25 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/java1777/2-2-homework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/java1777/2-2-homework/issues"
+  },
+  "homepage": "https://github.com/java1777/2-2-homework#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2"
+  }
+}
